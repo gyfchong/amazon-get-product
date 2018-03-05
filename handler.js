@@ -1,10 +1,4 @@
 'use strict';
-const got = require('got');
-const hmacSHA256 = require('crypto-js/hmac-sha256');
-const Base64 = require('crypto-js/enc-base64');
-const moment = require('moment');
-const convert = require('xml-js');
-const queryString = require('query-string');
 const aws = require('aws-lib');
 
 const getProduct = (options) => new Promise(
