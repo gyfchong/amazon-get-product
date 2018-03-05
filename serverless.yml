@@ -12,8 +12,8 @@ provider:
   name: aws
   runtime: nodejs6.10
   environment:
-    AWS_API_KEY: "${self:custom.secrets.AWS_API_KEY}"
-    AWS_API_SECRET: "${self:custom.secrets.AWS_API_SECRET}"
+    PRODUCT_API_KEY: "${self:custom.secrets.PRODUCT_API_KEY}"
+    PRODUCT_API_SECRET: "${self:custom.secrets.PRODUCT_API_SECRET}"
 
 package:
   exclude:
