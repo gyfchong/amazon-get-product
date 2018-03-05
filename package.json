@@ -1,5 +1,5 @@
 {
-  "name": "amazon-api-lambda",
+  "name": "amazon-get-product",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",

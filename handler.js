@@ -25,7 +25,7 @@ const getProduct = (options) => new Promise(
   }
 );
 
-module.exports.helloWorld = (event, context, callback) => {
+module.exports.amazonGetProduct = (event, context, callback) => {
 
   const options = {
     ItemId: 'B010TU7LP2',
@@ -47,7 +47,5 @@ module.exports.helloWorld = (event, context, callback) => {
       body: error
     });
   });
-
-
 
 };
