@@ -3,7 +3,7 @@ const aws = require('aws-lib');
 
 const getProduct = (options) => new Promise(
   (resolve, reject) => {
-    const prodAdv = aws.createProdAdvClient(process.env.PRODUCT_API_KEY, process.env.PRODUCT_API_SECRET, 'wishbones-02');
+    const prodAdv = aws.createProdAdvClient(process.env.PRODUCT_API_KEY, process.env.PRODUCT_API_SECRET, process.env.PRODUCT_ASSOC_TAG);
 
     prodAdv.call("ItemLookup", options, function(err, result) {
 
