@@ -14,6 +14,7 @@ provider:
   environment:
     PRODUCT_API_KEY: "${self:custom.secrets.PRODUCT_API_KEY}"
     PRODUCT_API_SECRET: "${self:custom.secrets.PRODUCT_API_SECRET}"
+    PRODUCT_ASSOC_TAG: "${self:custom.secrets.PRODUCT_ASSOC_TAG}"
 
 package:
   exclude:
